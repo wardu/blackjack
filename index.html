@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BlackJack</title>
+  </head>
+  <body>
+    <h1 class="page-title">BlackJack</h1>
+    <div class="game-container">
+      <div class="game-info-container">
+        <button type="button" id="button-deal" class="deal-button">DEAL</button>
+        <button type="button" id="button-hit" class="button">HIT</button>
+        <button type="button" id="button-stand" class="button">STAND</button>
+
+        <div class="game-info">Dealer <span id="computer-score">0</span></div>
+      </div>
+      <div id="computer-card-space-1" class="card"></div>
+      <div id="computer-card-space-2" class="card"></div>
+      <div id="computer-card-space-3" class="card"></div>
+      <div id="computer-card-space-4" class="card"></div>
+      <div id="computer-card-space-5" class="card"></div>
+      <div id="player-card-space-1" class="card"></div>
+      <div id="player-card-space-2" class="card"></div>
+      <div id="player-card-space-3" class="card"></div>
+      <div id="player-card-space-4" class="card"></div>
+      <div id="player-card-space-5" class="card"></div>
+
+      <div class="game-info-container">
+        <div class="game-info">Player <span id="player-score">0</span></div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

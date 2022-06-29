@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(rgb(113, 224, 113), rgb(16, 105, 34));
+}
+
+.page-title {
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 6em;
+  color: white;
+}
+
+.game-info-container {
+  grid-column: 1 / -1;
+  justify-content: space-between;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 5px;
+  margin: 50px;
+  justify-content: center;
+}
+
+.game-info {
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+.card {
+  width: 103px;
+  height: 138px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* BUTTONS */
+
+.button,
+.deal-button {
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#button-deal {
+  background-color: #010009;
+  color: white;
+  border: 2px solid #060606;
+}
+
+#button-deal:hover {
+  background-color: white;
+  color: black;
+}
+
+#button-hit {
+  background-color: #af4c5b;
+  color: white;
+  border: 2px solid #af4c5b;
+}
+
+#button-hit:hover {
+  background-color: white;
+  color: black;
+}
+
+#button-stand {
+  background-color: #008cba;
+  color: white;
+  border: 2px solid #008cba;
+}
+
+#button-stand:hover {
+  background-color: white;
+  color: black;
+}
