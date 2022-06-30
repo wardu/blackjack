@@ -1,10 +1,10 @@
 # blackjack
 
 
-This app uses -
+This app uses:
 
-JavaScript
-jQuery
-HTML
-CSS
+- JavaScript
+- jQuery
+- HTML
+- CSS
 
