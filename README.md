@@ -8,3 +8,4 @@ This app uses:
 - HTML
 - CSS
 
+Hosted on GitHub pages
